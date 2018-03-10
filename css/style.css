@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #926239;
+    line-height: 1.6;
+}
+
+#showCase {
+    background-image: url('../img/blueBrigt.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+
+}
+
+
+
+#showCase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+
+#showCase p {
+    font-size: 20px;
+}
+
+#showCase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    border: #922633 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showCase .button:hover {
+    background: blue;
+    color: beige;
+    transition:all 2s;
+    
+}
+
+
+#sectionA {
+    padding: 20px;
+    background: #926239;
+    color: #fff;
+    text-align: center;
+    
+}
+
+#sectionA:hover {
+    padding: 20px;
+    background: #394e92;
+    color: #fff;
+    text-align: center;
+    transition:all 5s;
+    box-shadow: inset 0 0 0 25px #53a7ea;
+}
+
+#sectionB {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#sectionB:hover {
+    padding: 20px;
+    background: #0e205a;
+    color: #fff;
+    text-align: center;
+    transition:all 5s;
+    box-shadow: inset 0 0 0 25px #9dc9ec;
+}
+#sectionC {
+    display: flex;
+}
+
+#sectionC .box1, #sectionC .box3 {
+    background: #926239;
+    color: #fff;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
